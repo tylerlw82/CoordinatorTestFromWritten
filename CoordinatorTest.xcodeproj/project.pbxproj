@@ -15,6 +15,11 @@
 		8847C31C25A4357800BE8FAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8847C31A25A4357800BE8FAE /* LaunchScreen.storyboard */; };
 		8847C32725A4357800BE8FAE /* CoordinatorTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8847C32625A4357800BE8FAE /* CoordinatorTestTests.swift */; };
 		8847C33225A4357800BE8FAE /* CoordinatorTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8847C33125A4357800BE8FAE /* CoordinatorTestUITests.swift */; };
+		8847C34325A435CC00BE8FAE /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8847C34225A435CC00BE8FAE /* Coordinator.swift */; };
+		8847C34825A435F000BE8FAE /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8847C34725A435F000BE8FAE /* Storyboarded.swift */; };
+		8847C35E25A437BC00BE8FAE /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8847C35D25A437BC00BE8FAE /* MainCoordinator.swift */; };
+		8847C36325A4395100BE8FAE /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8847C36225A4395100BE8FAE /* BuyViewController.swift */; };
+		8847C36825A4395F00BE8FAE /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8847C36725A4395F00BE8FAE /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		8847C32D25A4357800BE8FAE /* CoordinatorTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoordinatorTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8847C33125A4357800BE8FAE /* CoordinatorTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorTestUITests.swift; sourceTree = "<group>"; };
 		8847C33325A4357800BE8FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8847C34225A435CC00BE8FAE /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		8847C34725A435F000BE8FAE /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		8847C35D25A437BC00BE8FAE /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		8847C36225A4395100BE8FAE /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		8847C36725A4395F00BE8FAE /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +109,15 @@
 		8847C30E25A4357600BE8FAE /* CoordinatorTest */ = {
 			isa = PBXGroup;
 			children = (
+				8847C35D25A437BC00BE8FAE /* MainCoordinator.swift */,
+				8847C34225A435CC00BE8FAE /* Coordinator.swift */,
+				8847C34725A435F000BE8FAE /* Storyboarded.swift */,
+				8847C31525A4357600BE8FAE /* Main.storyboard */,
+				8847C36225A4395100BE8FAE /* BuyViewController.swift */,
+				8847C36725A4395F00BE8FAE /* CreateAccountViewController.swift */,
+				8847C31325A4357600BE8FAE /* ViewController.swift */,
 				8847C30F25A4357600BE8FAE /* AppDelegate.swift */,
 				8847C31125A4357600BE8FAE /* SceneDelegate.swift */,
-				8847C31325A4357600BE8FAE /* ViewController.swift */,
-				8847C31525A4357600BE8FAE /* Main.storyboard */,
 				8847C31825A4357800BE8FAE /* Assets.xcassets */,
 				8847C31A25A4357800BE8FAE /* LaunchScreen.storyboard */,
 				8847C31D25A4357800BE8FAE /* Info.plist */,
@@ -258,8 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8847C34325A435CC00BE8FAE /* Coordinator.swift in Sources */,
+				8847C35E25A437BC00BE8FAE /* MainCoordinator.swift in Sources */,
 				8847C31425A4357600BE8FAE /* ViewController.swift in Sources */,
+				8847C34825A435F000BE8FAE /* Storyboarded.swift in Sources */,
+				8847C36825A4395F00BE8FAE /* CreateAccountViewController.swift in Sources */,
 				8847C31025A4357600BE8FAE /* AppDelegate.swift in Sources */,
+				8847C36325A4395100BE8FAE /* BuyViewController.swift in Sources */,
 				8847C31225A4357600BE8FAE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
